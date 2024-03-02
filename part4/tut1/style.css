@@ -1,0 +1,28 @@
+/* color properties ke value ko hum 3 tareeke se de sakate hain */
+/* color: rgb / hexcode / hsl */
+
+/* ------------------------------------------ */
+/* rgb()  ---> 0 to 255(Dark to ligth) */
+
+/* ------------------------------------------ */
+/* hexcode --> 0 to 9 or a to f , 0 to 9  */
+
+/* ----------------------------------------- */
+/* hsl ---> hue saturation light*/
+/* hue --> represent color 0 to 360 */
+/* saturation --> how pure is the color , 0 to 100% */
+/* ligth --> 0 to 100% (dark to light) */
+
+
+/* ------------------------- here we discuss HSL --------------------------------------------- */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --primary-color: hsl(0, 100%, 50%);
+}
+
+h1{
+    color:var(--primary-color);
+}

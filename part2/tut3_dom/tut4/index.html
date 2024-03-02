@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Asserts/style.css">
+    <script src="Asserts/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+    <nav class="mynav mycontainer">
+        <h1 class="logo">Website</h1>
+        <ul class="nav_item" >
+            <li class="myli"><a href="">Home</a></li>
+            <li class="myli"><a href="">Todo</a></li>
+            <li class="myli"><a href="">Sign Up</a></li>
+        </ul>
+    </nav>
+    <div class="headline">
+        <h2 id="myh2" class="h2class">Manage your Task </h2>   
+        <!-- <h2 id="myh2">Manage your Task <span style="display: none;">Hello</span></h2> only for practise  -->
+        <button class="btn btn_headline">Learn More</button>
+    </div>
+</header>
+<section class="todo_section mycontainer">
+    <h2>Your Plan for Today</h2>
+    <form class="form_todo">
+        <input type="text" placeholder="Add Todo">
+        <input type="submit" class="btn" value="Add Todo">
+    </form>
+</section>
+
+<section class="section_signUp mycontainer">
+    <h2>Sign Up</h2>
+    <form class="signupForm">
+        <div class="form_group">
+            <label for="username">UserName</label>
+            <input type="text" name="username" id="username">
+        </div>
+        <div class="form_group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div class="form_group">
+            <label for="confromPassword">Conform Password</label>
+            <input type="password" name="confromPassword" id="confromPassword">
+        </div>
+        <div class="form_group">
+            <label for="phone">Phone</label>
+            <input type="text" name="pnonr" id="phone">
+        </div>
+        <div class="form_group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="form_group">
+            <label for="about">About yourSelf</label>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn signupBtn">Submit</button>
+    </form>
+</section>
+</body>
+</html>

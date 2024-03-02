@@ -1,0 +1,35 @@
+:root{
+    --hue-color:218;
+    --heading-color:hsl(var(--hue-color), 100%, 50%);
+    --paragraph-color:hsl(var(--hue-color), 20%, 5%);
+    --body-color:hsl(0, 0%, 80%);
+    --btn-bgcolor:hsl(var(--hue-color),100%,50%);
+    --btn-color:hsl(0, 0%, 100%);
+}
+
+.dark-mode{
+    --heading-color:hsl(var(--hue-color), 100%, 100%);
+    --paragraph-color:hsl(var(--hue-color), 20%, 100%);
+    --body-color:hsl(var(--hue-color), 30%, 10%);
+    --btn-bgcolor:hsl(var(--hue-color),50%,100%);
+    --btn-color:hsl(0, 5%, 10%);
+
+
+}
+body{
+    background-color:var(--body-color)
+}
+h1{
+    color: var(--heading-color);
+}
+p{
+    color:var(--paragraph-color)
+}
+
+.toggle-btn{
+    outline: none;
+    border: none;
+    padding: 10px;
+    color:var(--btn-color);
+    background-color: var(--btn-bgcolor);
+}

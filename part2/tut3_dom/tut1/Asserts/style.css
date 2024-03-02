@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    min-height: 60vh;
+    position: relative;
+    /* border: 1px solid red; */
+    background-image: url('https://images.pexels.com/photos/1005711/pexels-photo-1005711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.mycontainer{
+    max-width: 1260px;
+    margin: auto;
+    width: 80%;
+}
+
+.mynav{
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_item{
+    display: flex;
+    list-style-type: none;
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+.headline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    display:inline-block ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn_headline{
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+/* ---------------------------------todo_section-------------------------------------------------- */
+.todo_section{
+    margin-top: 5rem;
+    text-align: center;
+}
+.form_todo{
+min-height: 8vh;
+margin-top: 1rem;
+display: flex;
+justify-content: space-between;
+}
+
+.form_todo input{
+    min-height: 100%;
+}
+.form_todo input[type="text"]{
+    width: 75%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.form_todo input[type="submit"]{
+    width: 20%;
+    background-color: rgb(195, 161, 164);
+    font-weight: 600;
+}
+
+
+/* ---------------------------------section_signUp------------------------------------------- */
+.section_signUp{
+    margin: 4rem auto;
+    text-align: center;
+    background-color: rgb(240,240,240);
+    border-radius: 10px;
+    padding: 1rem;
+}
+.signupForm{
+    max-width: 800px;
+    width: 95%;
+    text-align: left;
+    margin: auto;
+}
+.signupForm label{
+    display: block;
+}
+.signupForm input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+.signupForm textarea{
+    width: 100%;
+}
+.form_group{
+    margin-top: 1rem;
+}
+.signupBtn{
+    background-color: rgb(195, 161, 164);
+    color: white;
+    padding: 0.7rem 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
